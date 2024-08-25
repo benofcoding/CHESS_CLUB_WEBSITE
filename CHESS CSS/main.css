@@ -1,0 +1,7 @@
+.hero-image{
+    background-image: url("../CHESS_IMAGES/long chess.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
