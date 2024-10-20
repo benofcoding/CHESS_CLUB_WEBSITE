@@ -43,10 +43,20 @@ body{
     height: 50vh;
 }
 
-.two-column{
+.two-column1{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  row-gap: 100px;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.two-column2{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   width: 90%;
   margin: auto;
   margin-top: 40px;
@@ -60,8 +70,20 @@ body{
   margin: auto;
 }
 
-.text{
+.text1{
   background-color: #004e42;
   padding: 3vh;
   border-radius: 1.5vh;
+  font-size: 30px;
+}
+
+.text2{
+  background-color: #004e42;
+  padding: 3vh;
+  border-radius: 1.5vh;
+  font-size: 15px;
+}
+
+.thebig{
+  line-height: 12345px;
 }
